@@ -1,5 +1,6 @@
 package com.capton.sl;
 /**
+ * 可以自由移动缩放的图片控件
  * Created by capton on 2017/4/18.
  */
 
@@ -18,16 +19,6 @@ import android.view.ViewConfiguration;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.ImageView;
 
-
-/**
- * @描述 实现可以自由移动缩放的图片控件
- * @项目名称 App_imooc
- * @包名 com.android.imooc.imagescale
- * @类名 ScaleView
- * @author chenlin
- * @date 2013年6月10日 下午10:11:11
- * @version 1.0
- */
 
 public class ScaleView extends ImageView implements OnGlobalLayoutListener, OnScaleGestureListener, OnTouchListener {
 
